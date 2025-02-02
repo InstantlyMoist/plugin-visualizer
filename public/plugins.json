@@ -1,0 +1,1237 @@
+{
+    "PurpleParrot": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleCaptcha": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleDynamicRenderer": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PowerNBT": {
+      "depend": [],
+      "softdepend": []
+    },
+    "AntiProxy": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PlotBorder": {
+      "depend": [],
+      "softdepend": []
+    },
+    "ViaVersion": {
+      "depend": [],
+      "softdepend": []
+    },
+    "AntiCraft": {
+      "depend": [],
+      "softdepend": []
+    },
+    "WorldCheck": {
+      "depend": [],
+      "softdepend": []
+    },
+    "GeoLocation": {
+      "depend": [],
+      "softdepend": []
+    },
+    "ViaBackwards": {
+      "depend": [
+        "ViaVersion"
+      ],
+      "softdepend": []
+    },
+    "Apollo-Bukkit": {
+      "depend": [],
+      "softdepend": [
+        "ViaVersion"
+      ]
+    },
+    "LuckPerms": {
+      "depend": [],
+      "softdepend": [
+        "ViaVersion"
+      ]
+    },
+    "PurpleMarket": {
+      "depend": [],
+      "softdepend": []
+    },
+    "TextParticle": {
+      "depend": [],
+      "softdepend": []
+    },
+    "ProtocolLib": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleRenameFilter": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleParkour": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleTrails": {
+      "depend": [],
+      "softdepend": []
+    },
+    "FastAsyncWorldEdit": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurplePiece": {
+      "depend": [],
+      "softdepend": []
+    },
+    "AntiDisconnectSpam": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PacketWrapper": {
+      "depend": [
+        "ProtocolLib"
+      ],
+      "softdepend": []
+    },
+    "CommandScheduler": {
+      "depend": [],
+      "softdepend": []
+    },
+    "EzPrestigesGenerator": {
+      "depend": [],
+      "softdepend": []
+    },
+    "CleanroomGenerator": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PluginConstructorAPI": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PList": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleChatColor": {
+      "depend": [],
+      "softdepend": []
+    },
+    "XExploitFix": {
+      "depend": [],
+      "softdepend": [
+        "ViaVersion",
+        "ProtocolLib"
+      ]
+    },
+    "PlaceholderAPI": {
+      "depend": [],
+      "softdepend": [
+        "ViaVersion"
+      ]
+    },
+    "VoidWorld": {
+      "depend": [],
+      "softdepend": []
+    },
+    "UltimateAutoRestart": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI"
+      ]
+    },
+    "NametagEdit": {
+      "depend": [],
+      "softdepend": [
+        "LuckPerms",
+        "PlaceholderAPI"
+      ]
+    },
+    "SafeNBT": {
+      "depend": [],
+      "softdepend": []
+    },
+    "OldCombatMechanics": {
+      "depend": [],
+      "softdepend": []
+    },
+    "2FAGuard": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "ProtocolLib"
+      ]
+    },
+    "PurpleBombs": {
+      "depend": [],
+      "softdepend": []
+    },
+    "WorldEdit": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PacketLimiter": {
+      "depend": [
+        "ProtocolLib"
+      ],
+      "softdepend": []
+    },
+    "AnimatedScoreboard": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "LuckPerms"
+      ]
+    },
+    "ProtocolChanger": {
+      "depend": [
+        "ProtocolLib"
+      ],
+      "softdepend": []
+    },
+    "ClearLag": {
+      "depend": [],
+      "softdepend": []
+    },
+    "IllegalStack": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib"
+      ]
+    },
+    "LightCleaner": {
+      "depend": [],
+      "softdepend": [
+        "WorldEdit"
+      ]
+    },
+    "BuycraftX": {
+      "depend": [],
+      "softdepend": []
+    },
+    "Votifier": {
+      "depend": [],
+      "softdepend": []
+    },
+    "HamsterAPI": {
+      "depend": [],
+      "softdepend": []
+    },
+    "EffectLib": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleFreeze": {
+      "depend": [],
+      "softdepend": []
+    },
+    "TebexBedrock": {
+      "depend": [],
+      "softdepend": [
+        "BuycraftX"
+      ]
+    },
+    "floodgate": {
+      "depend": [],
+      "softdepend": []
+    },
+    "Vault": {
+      "depend": [],
+      "softdepend": []
+    },
+    "EZBlocks": {
+      "depend": [],
+      "softdepend": []
+    },
+    "BlockHardness": {
+      "depend": [],
+      "softdepend": []
+    },
+    "ViaRewind": {
+      "depend": [
+        "ViaVersion",
+        "ViaBackwards"
+      ],
+      "softdepend": []
+    },
+    "JoinEventsPro": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI"
+      ]
+    },
+    "ClientStats": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib",
+        "ViaVersion"
+      ]
+    },
+    "HolographicDisplays": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI"
+      ]
+    },
+    "Vulcan": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "ViaVersion",
+        "floodgate"
+      ]
+    },
+    "PlayerVaults": {
+      "depend": [],
+      "softdepend": [
+        "Vault"
+      ]
+    },
+    "MyCommand": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "PlaceholderAPI"
+      ]
+    },
+    "EZRanksPro": {
+      "depend": [],
+      "softdepend": [
+        "Vault"
+      ]
+    },
+    "ShopGUIPlus": {
+      "depend": [],
+      "softdepend": [
+        "Vault"
+      ]
+    },
+    "spark": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "ViaVersion"
+      ]
+    },
+    "MaxRankup": {
+      "depend": [
+        "EZRanksPro",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "CrazyCrates": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "HolographicDisplays"
+      ]
+    },
+    "RankupHolograms": {
+      "depend": [],
+      "softdepend": [
+        "EZRanksPro",
+        "HolographicDisplays"
+      ]
+    },
+    "WorldGuard": {
+      "depend": [],
+      "softdepend": [
+        "WorldEdit"
+      ]
+    },
+    "NewPlayerJoinMessages": {
+      "depend": [
+        "WorldGuard"
+      ],
+      "softdepend": []
+    },
+    "EasyBar": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib",
+        "ViaVersion",
+        "ViaRewind"
+      ]
+    },
+    "ScratchCards": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "PlaceholderAPI"
+      ]
+    },
+    "EZPrestige": {
+      "depend": [
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "LagAssist": {
+      "depend": [],
+      "softdepend": [
+        "Vault"
+      ]
+    },
+    "DeluxeMenus": {
+      "depend": [],
+      "softdepend": [
+        "PlaceholderAPI",
+        "Vault"
+      ]
+    },
+    "RankupNotif": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "EZRanksPro"
+      ]
+    },
+    "MineSession": {
+      "depend": [
+        "Vault",
+        "WorldEdit",
+        "WorldGuard",
+        "LuckPerms"
+      ],
+      "softdepend": []
+    },
+    "Citizens": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "PlaceholderAPI",
+        "WorldGuard",
+        "ProtocolLib",
+        "ViaVersion"
+      ]
+    },
+    "AdvancedCrates": {
+      "depend": [],
+      "softdepend": [
+        "Citizens",
+        "PlaceholderAPI"
+      ]
+    },
+    "WGRegionEvents": {
+      "depend": [
+        "WorldGuard"
+      ],
+      "softdepend": []
+    },
+    "PurpleRespawnCards": {
+      "depend": [
+        "WorldGuard"
+      ],
+      "softdepend": []
+    },
+    "PurpleDropper": {
+      "depend": [
+        "WorldGuard"
+      ],
+      "softdepend": []
+    },
+    "helper": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib",
+        "Citizens",
+        "ViaVersion"
+      ]
+    },
+    "RegionCommand": {
+      "depend": [
+        "WorldGuard",
+        "WGRegionEvents"
+      ],
+      "softdepend": []
+    },
+    "JumpPads": {
+      "depend": [],
+      "softdepend": [
+        "Essentials"
+      ]
+    },
+    "PlugMan": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PlugManX": {
+      "depend": [],
+      "softdepend": [
+        "PlugMan"
+      ]
+    },
+    "SimplePortals": {
+      "depend": [],
+      "softdepend": [
+        "Multiverse-Core"
+      ]
+    },
+    "TitleManager": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "Essentials",
+        "PlaceholderAPI",
+        "SuperVanish"
+      ]
+    },
+    "ServerlistMOTD": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib",
+        "Vault",
+        "PlaceholderAPI",
+        "Multiverse-Core",
+        "Essentials"
+      ]
+    },
+    "Multiverse-Core": {
+      "depend": [],
+      "softdepend": []
+    },
+    "TopGangsHologram": {
+      "depend": [
+        "Multiverse-Core"
+      ],
+      "softdepend": []
+    },
+    "ServerTutorialPlus": {
+      "depend": [
+        "Multiverse-Core"
+      ],
+      "softdepend": [
+        "PlaceholderAPI"
+      ]
+    },
+    "CrazyEnvoy": {
+      "depend": [],
+      "softdepend": [
+        "HolographicDisplays",
+        "PlaceholderAPI",
+        "Multiverse-Core",
+        "WorldEdit",
+        "WorldGuard"
+      ]
+    },
+    "AdvancedGUI": {
+      "depend": [
+        "ProtocolLib"
+      ],
+      "softdepend": [
+        "PlaceholderAPI",
+        "Vault",
+        "Multiverse-Core"
+      ]
+    },
+    "PurpleCore": {
+      "depend": [
+        "Multiverse-Core",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleHunt": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core",
+        "Citizens"
+      ],
+      "softdepend": []
+    },
+    "PurpleRecentDonatorNPC": {
+      "depend": [
+        "PurpleCore",
+        "Citizens",
+        "HolographicDisplays",
+        "Multiverse-Core"
+      ],
+      "softdepend": []
+    },
+    "PurpleSumo": {
+      "depend": [
+        "Multiverse-Core",
+        "PurpleCore",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleSkullCommand": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core"
+      ],
+      "softdepend": []
+    },
+    "PrisonMines": {
+      "depend": [],
+      "softdepend": [
+        "HolographicDisplays",
+        "WorldGuard",
+        "WorldEdit",
+        "Multiverse-Core"
+      ]
+    },
+    "PurpleUpgrades": {
+      "depend": [
+        "PurpleCore",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleTreats": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleEvents": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurplePlotFlags": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleBuycraftRestorer": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "CommandToItem": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleHotfix": {
+      "depend": [
+        "PlaceholderAPI",
+        "Vault",
+        "PurpleCore"
+      ],
+      "softdepend": [
+        "WorldGuard",
+        "ProtocolLib",
+        "WGRegionEvents"
+      ]
+    },
+    "PurpleBuy": {
+      "depend": [
+        "PurpleCore",
+        "Apollo-Bukkit"
+      ],
+      "softdepend": []
+    },
+    "PurpleNightVision": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleDomains": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurplePvPProtection": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "DeluxeTags": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "Bustabit": {
+      "depend": [
+        "Vault",
+        "ProtocolLib",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "UniversalRedeem": {
+      "depend": [
+        "DeluxeTags",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleJoinWatcher": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleDailyRewards": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleDiscordLink": {
+      "depend": [
+        "helper",
+        "LuckPerms",
+        "PurpleCore"
+      ],
+      "softdepend": [
+        "PlaceholderAPI"
+      ]
+    },
+    "PurpleGeyser": {
+      "depend": [
+        "PurpleCore",
+        "floodgate"
+      ],
+      "softdepend": []
+    },
+    "PurpleBouncer": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "LogsUpload": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleRefund": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleLuckyBlocks": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleClaimPurchases": {
+      "depend": [
+        "PurpleDiscordLink",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleMaze": {
+      "depend": [
+        "PurpleCore",
+        "WorldEdit",
+        "FastAsyncWorldEdit",
+        "Multiverse-Core"
+      ],
+      "softdepend": [
+        "Apollo-Bukkit"
+      ]
+    },
+    "PurpleDuels": {
+      "depend": [
+        "Multiverse-Core",
+        "PurpleCore",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleLogging": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleCombatLogging": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleBosses": {
+      "depend": [
+        "Citizens",
+        "WorldEdit",
+        "WorldGuard",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleBail": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurplePvPMine": {
+      "depend": [
+        "helper",
+        "Vault",
+        "HolographicDisplays",
+        "Multiverse-Core",
+        "PurpleCore",
+        "Apollo-Bukkit"
+      ],
+      "softdepend": []
+    },
+    "PurpleSettings": {
+      "depend": [
+        "helper",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PrisonMinesAsyncAddon": {
+      "depend": [
+        "WorldEdit",
+        "FastAsyncWorldEdit",
+        "PrisonMines"
+      ],
+      "softdepend": []
+    },
+    "PurpleChatFilter": {
+      "depend": [
+        "PurpleCore",
+        "PurpleSettings"
+      ],
+      "softdepend": []
+    },
+    "LiteBans": {
+      "depend": [],
+      "softdepend": []
+    },
+    "PurpleTeamDeathMatch": {
+      "depend": [
+        "PurpleCore",
+        "PurpleEvents",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI"
+      ],
+      "softdepend": []
+    },
+    "PurpleVulcan": {
+      "depend": [
+        "PurpleCore",
+        "Vulcan",
+        "PlaceholderAPI",
+        "LuckPerms",
+        "LiteBans"
+      ],
+      "softdepend": []
+    },
+    "PurpleBridges": {
+      "depend": [
+        "PurpleCore",
+        "PurpleEvents",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI"
+      ],
+      "softdepend": []
+    },
+    "PurpleSpleef": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI",
+        "PurpleEvents"
+      ],
+      "softdepend": []
+    },
+    "PurpleFFA": {
+      "depend": [
+        "PurpleCore",
+        "PurpleEvents",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI"
+      ],
+      "softdepend": []
+    },
+    "PurpleMineSweeper": {
+      "depend": [
+        "PurpleCore",
+        "PurpleDiscordLink",
+        "LiteBans",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleVotes": {
+      "depend": [
+        "PurpleCore",
+        "Votifier",
+        "PurpleSettings"
+      ],
+      "softdepend": []
+    },
+    "PurpleHistory": {
+      "depend": [
+        "PurpleCore",
+        "LiteBans"
+      ],
+      "softdepend": []
+    },
+    "PurpleSumoFFA": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI",
+        "PurpleEvents"
+      ],
+      "softdepend": []
+    },
+    "PurpleBanAnnouncer": {
+      "depend": [
+        "PurpleCore",
+        "LiteBans"
+      ],
+      "softdepend": []
+    },
+    "PurpleSplegg": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI",
+        "PurpleEvents"
+      ],
+      "softdepend": []
+    },
+    "PurpleBlockParty": {
+      "depend": [
+        "PurpleCore",
+        "Multiverse-Core",
+        "PurpleSettings",
+        "PlaceholderAPI",
+        "PurpleEvents"
+      ],
+      "softdepend": []
+    },
+    "PurpleLunar": {
+      "depend": [
+        "PurpleCore",
+        "WorldEdit",
+        "WorldGuard",
+        "Apollo-Bukkit",
+        "PurpleSettings",
+        "PlaceholderAPI"
+      ],
+      "softdepend": []
+    },
+    "Essentials": {
+      "depend": [],
+      "softdepend": [
+        "Vault",
+        "LuckPerms"
+      ]
+    },
+    "PurpleDiscordPunishments": {
+      "depend": [
+        "Essentials",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "SuperVanish": {
+      "depend": [],
+      "softdepend": [
+        "ProtocolLib",
+        "Essentials",
+        "PlaceholderAPI",
+        "Citizens",
+        "NametagEdit",
+        "Vault"
+      ]
+    },
+    "DeluxeChat": {
+      "depend": [],
+      "softdepend": [
+        "Essentials",
+        "PlaceholderAPI",
+        "Vault"
+      ]
+    },
+    "HopperImprovements": {
+      "depend": [],
+      "softdepend": [
+        "WorldGuard",
+        "Essentials"
+      ]
+    },
+    "EssentialsSpawn": {
+      "depend": [
+        "Essentials"
+      ],
+      "softdepend": []
+    },
+    "PurpleBlock": {
+      "depend": [
+        "PurpleCore",
+        "LuckPerms",
+        "DeluxeChat"
+      ],
+      "softdepend": []
+    },
+    "PurpleItemFlip": {
+      "depend": [
+        "PurpleCore",
+        "PurpleBlock",
+        "PurpleDiscordLink",
+        "Vault",
+        "PlaceholderAPI",
+        "PurpleSettings"
+      ],
+      "softdepend": []
+    },
+    "PurpleGiveaways": {
+      "depend": [
+        "Vault",
+        "PurpleCore",
+        "PurpleBlock"
+      ],
+      "softdepend": []
+    },
+    "PlotSquared": {
+      "depend": [
+        "PurpleBlock"
+      ],
+      "softdepend": [
+        "WorldEdit",
+        "Vault",
+        "PlaceholderAPI"
+      ]
+    },
+    "UltimateChairs": {
+      "depend": [],
+      "softdepend": [
+        "WorldGuard",
+        "PlotSquared"
+      ]
+    },
+    "TradePlus": {
+      "depend": [
+        "PurpleCore",
+        "PurpleBlock"
+      ],
+      "softdepend": [
+        "Vault",
+        "WorldGuard"
+      ]
+    },
+    "PurpleTokens": {
+      "depend": [
+        "helper",
+        "WorldGuard",
+        "WorldEdit",
+        "PlaceholderAPI",
+        "PlotSquared",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurplePlayerAds": {
+      "depend": [
+        "PlotSquared"
+      ],
+      "softdepend": []
+    },
+    "PurpleTokenFlip": {
+      "depend": [
+        "PurpleCore",
+        "PurpleBlock",
+        "PurpleDiscordLink",
+        "PurpleTokens",
+        "PlaceholderAPI",
+        "PurpleSettings"
+      ],
+      "softdepend": []
+    },
+    "PurpleBookmarks": {
+      "depend": [
+        "PurpleCore",
+        "PlotSquared"
+      ],
+      "softdepend": []
+    },
+    "PurpleLottery": {
+      "depend": [
+        "PurpleCore",
+        "PurpleTokens",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleTPA": {
+      "depend": [
+        "PurpleCore",
+        "WorldGuard",
+        "PurpleBlock"
+      ],
+      "softdepend": []
+    },
+    "PurpleAuctionHouse": {
+      "depend": [
+        "PurpleCore",
+        "PurpleBlock",
+        "PurpleDiscordLink",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "GangsPlus": {
+      "depend": [
+        "Vault",
+        "PurpleBlock"
+      ],
+      "softdepend": [
+        "LiteBans",
+        "Multiverse-Core",
+        "WorldGuard",
+        "PlaceholderAPI"
+      ]
+    },
+    "PurpleWallStreet": {
+      "depend": [
+        "PurpleCore",
+        "AdvancedGUI"
+      ],
+      "softdepend": [
+        "PurpleAuctionHouse"
+      ]
+    },
+    "PurplePlotShops": {
+      "depend": [
+        "Vault",
+        "PurpleCore",
+        "PurpleBlock"
+      ],
+      "softdepend": []
+    },
+    "PurpleLeaderboards": {
+      "depend": [
+        "PlaceholderAPI",
+        "Votifier",
+        "GangsPlus",
+        "PurpleCore",
+        "Vault"
+      ],
+      "softdepend": []
+    },
+    "PurpleChatItem": {
+      "depend": [
+        "ProtocolLib",
+        "ViaVersion",
+        "PlotSquared",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleStaffChat": {
+      "depend": [
+        "PurpleChatItem",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleAutoSell": {
+      "depend": [
+        "PurpleCore",
+        "Vault",
+        "Essentials",
+        "PlaceholderAPI",
+        "PurpleLeaderboards",
+        "LuckPerms"
+      ],
+      "softdepend": []
+    },
+    "PurplePickCharge": {
+      "depend": [
+        "PurpleCore",
+        "PrisonMines",
+        "PurpleAutoSell"
+      ],
+      "softdepend": []
+    },
+    "PurpleKoth": {
+      "depend": [
+        "WorldGuard",
+        "GangsPlus",
+        "PurpleSettings",
+        "Apollo-Bukkit",
+        "PurpleCore"
+      ],
+      "softdepend": []
+    },
+    "PurpleCoinFlip": {
+      "depend": [
+        "PurpleCore",
+        "PurpleBlock",
+        "PurpleDiscordLink",
+        "Vault",
+        "PlaceholderAPI",
+        "PurpleSettings",
+        "LiteBans"
+      ],
+      "softdepend": []
+    },
+    "PurpleEnchantments": {
+      "depend": [
+        "PurpleTokens",
+        "PurpleAutoSell",
+        "WorldGuard",
+        "PurpleCore"
+      ],
+      "softdepend": [
+        "PurpleBombs",
+        "PurplePickCharge"
+      ]
+    },
+    "PurpleAchievements": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": [
+        "PurpleLeaderboards",
+        "PurpleCoinFlip",
+        "PurpleItemFlip",
+        "PurpleDuels",
+        "PurpleSumo"
+      ]
+    },
+    "InventoryFullPlus": {
+      "depend": [],
+      "softdepend": [
+        "HolographicDisplays",
+        "PurpleSettings",
+        "PurpleAutoSell",
+        "PurpleEnchantments"
+      ]
+    },
+    "PluginVisualizer": {
+      "depend": [
+        "PurpleCore"
+      ],
+      "softdepend": []
+    }
+  }
