@@ -57,9 +57,9 @@ jobs:
           script: |
             TARGET_DIR=""
             if [ "${{ github.ref }}" == "refs/heads/main" ]; then
-              TARGET_DIR="websites/minecraftiplist.com"
+              TARGET_DIR="websites/pluginvisualizer.com"
             elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
-              TARGET_DIR="websites/staging.minecraftiplist.com"
+              TARGET_DIR="websites/staging.pluginvisualizer.com"
             fi
 
             echo "Deploying to directory: $TARGET_DIR"
