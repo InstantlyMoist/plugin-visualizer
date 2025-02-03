@@ -56,7 +56,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             TARGET_DIR=""
-            if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            if [ "${{ github.ref }}" == "refs/heads/master" ]; then
               TARGET_DIR="websites/pluginvisualizer.com"
             elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
               TARGET_DIR="websites/staging.pluginvisualizer.com"
