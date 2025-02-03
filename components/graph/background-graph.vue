@@ -6,9 +6,6 @@ const canvasRef = ref<HTMLCanvasElement | null>(null)
 let simulation: d3.Simulation<d3.SimulationNodeDatum, undefined> | null = null
 let context: CanvasRenderingContext2D | null = null
 let animationFrameId: number | null = null
-let scrollVelocity = ref(0)
-let lastScrollY = 0
-let scrollTimeout: ReturnType<typeof setTimeout>
 
 const generateNodes = () => {
   const numNodes = 100
@@ -33,35 +30,10 @@ const initSimulation = () => {
       .radius(d => (d as any).radius + 2)
       .iterations(2)
     )
-    .force('scroll', scrollForce())
     .alphaDecay(0.001)
     .velocityDecay(0.4)
 
   startAnimation()
-}
-
-const scrollForce = () => {
-  return () => {
-    const speedBoost = Math.min(Math.abs(scrollVelocity.value) * 0.15, 8)
-    simulation?.nodes().forEach((node: any) => {
-      node.vx += (Math.sign(scrollVelocity.value) * speedBoost * 0.3) 
-      node.vy += (Math.sign(scrollVelocity.value) * speedBoost)
-    })
-  }
-}
-
-const handleScroll = () => {
-  const currentScrollY = window.scrollY
-  scrollVelocity.value = currentScrollY - lastScrollY
-  lastScrollY = currentScrollY
-
-  // Add velocity boost
-  simulation?.alpha(0.3).restart()
-  
-  clearTimeout(scrollTimeout)
-  scrollTimeout = setTimeout(() => {
-    scrollVelocity.value = 0
-  }, 100)
 }
 
 const drawNode = (node: any) => {
@@ -119,13 +91,11 @@ onMounted(() => {
     simulation?.alpha(1).restart()
   })
 
-  // window.addEventListener('scroll', handleScroll, { passive: true })
 })
 
 onUnmounted(() => {
   simulation?.stop()
   if (animationFrameId) cancelAnimationFrame(animationFrameId)
-  window.removeEventListener('scroll', handleScroll)
 })
 </script>
 
