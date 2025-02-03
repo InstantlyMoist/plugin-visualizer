@@ -14,9 +14,6 @@ importers:
       '@nuxt/image':
         specifier: 1.9.0
         version: 1.9.0(db0@0.2.1)(ioredis@5.4.2)(magicast@0.3.5)(rollup@4.32.0)
-      chokidar:
-        specifier: ^4.0.3
-        version: 4.0.3
       d3:
         specifier: ^7.9.0
         version: 7.9.0
@@ -48,9 +45,15 @@ importers:
       '@vueuse/core':
         specifier: ^12.5.0
         version: 12.5.0(typescript@5.7.3)
+      chokidar:
+        specifier: ^4.0.3
+        version: 4.0.3
       nuxt:
         specifier: ^3.15.3
         version: 3.15.3(@parcel/watcher@2.5.1)(@types/node@22.10.10)(db0@0.2.1)(ioredis@5.4.2)(magicast@0.3.5)(rollup@4.32.0)(terser@5.37.0)(typescript@5.7.3)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
+      nuxt-gtag:
+        specifier: 3.0.2
+        version: 3.0.2(magicast@0.3.5)(rollup@4.32.0)
       nuxt-mongoose:
         specifier: 1.0.6
         version: 1.0.6(@nuxt/devtools@1.7.0(rollup@4.32.0)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3)))(@unocss/webpack@0.58.9(rollup@4.32.0)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(magicast@0.3.5)(nuxt@3.15.3(@parcel/watcher@2.5.1)(@types/node@22.10.10)(db0@0.2.1)(ioredis@5.4.2)(magicast@0.3.5)(rollup@4.32.0)(terser@5.37.0)(typescript@5.7.3)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0))(postcss@8.5.1)(rollup@4.32.0)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))(webpack@5.97.1)
@@ -3010,6 +3013,9 @@ packages:
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
+
+  nuxt-gtag@3.0.2:
+    resolution: {integrity: sha512-0Spu/rffPxW7REebkjE22qQOuVZIQuyIuvd61InDdJU+d+gRIqWhrUuKBWdk43N/J1elj+cTK2kEdk5FQX7vdQ==}
 
   nuxt-mongoose@1.0.6:
     resolution: {integrity: sha512-fdWMu/HoVu66mnvV0oPaJSiTE6s/toZQrTkfYXSBfWJ/AgHYzDCFj4vpT+nU/27Od6h/TFPgohmU3yHww0x6Qw==}
@@ -7959,6 +7965,17 @@ snapshots:
   nth-check@2.1.1:
     dependencies:
       boolbase: 1.0.0
+
+  nuxt-gtag@3.0.2(magicast@0.3.5)(rollup@4.32.0):
+    dependencies:
+      '@nuxt/kit': 3.15.3(magicast@0.3.5)(rollup@4.32.0)
+      defu: 6.1.4
+      pathe: 1.1.2
+      ufo: 1.5.4
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
 
   nuxt-mongoose@1.0.6(@nuxt/devtools@1.7.0(rollup@4.32.0)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3)))(@unocss/webpack@0.58.9(rollup@4.32.0)(webpack@5.97.1))(@vue/compiler-core@3.5.13)(magicast@0.3.5)(nuxt@3.15.3(@parcel/watcher@2.5.1)(@types/node@22.10.10)(db0@0.2.1)(ioredis@5.4.2)(magicast@0.3.5)(rollup@4.32.0)(terser@5.37.0)(typescript@5.7.3)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0))(postcss@8.5.1)(rollup@4.32.0)(vite@6.0.11(@types/node@22.10.10)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))(webpack@5.97.1):
     dependencies:

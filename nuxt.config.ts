@@ -28,11 +28,15 @@ export default defineNuxtConfig({
       },
     },
   },
+  gtag: {
+    id: 'G-NL6V737T65'
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-mongoose',
     '@nuxt/icon',
     '@nuxt/image',
-    'nuxt-rate-limit'
+    'nuxt-rate-limit',
+    'nuxt-gtag'
   ]
 })
