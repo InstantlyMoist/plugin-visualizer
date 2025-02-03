@@ -19,6 +19,7 @@ const links = [
             :to="link.href"
             class="text-zinc-300 hover:text-purple-500 transition-colors"
             target="_blank"
+            :aria-label="link.name"
           >
             {{ link.name }}
           </NuxtLink>

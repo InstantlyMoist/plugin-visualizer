@@ -196,7 +196,7 @@ const copyToClipboard = () => {
 </script>
 
 <template>
-  <Html class="scroll-smooth">
+  <Html class="scroll-smooth" lang="en">
 
   <Body class="bg-zinc-950 text-zinc-50">
     <NavBar />
