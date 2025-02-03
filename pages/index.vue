@@ -171,9 +171,9 @@ const features = [
 
 import { useClipboard } from '@vueuse/core'
 import CountUp from '~/components/text/count-up.vue';
+import { NuxtLink } from '#components';
 
 const { data } = useFetch('/api/v1/counts')
-console.log(data.value?.counts.exportCount)
 
 // Inside your setup script
 const { copy } = useClipboard()
@@ -280,9 +280,15 @@ const copyToClipboard = () => {
               class="border bg-[#060607] border-zinc-800 rounded-lg overflow-hidden hover:border-purple-500/30 transition-all duration-300">
               <GraphForceDirectedGraph v-if="pluginData" class="w-full" :initial-zoom="0.5" :payload="pluginData" />
             </div>
-            <i class="text-zinc-300 text-sm text-right">
+            <div class="flex flex-row gap-2 justify-end">
+              <i class="text-zinc-300 text-sm text-right">
               Click and drag to move the graph
             </i>
+            <NuxtLink target="_blank" href="/visualize/03324e7d-1ee6-4cd4-8060-a0133cb03a3f">
+              <Icon name="cil:fullscreen" class="hover:text-purple-500 transition-colors"/>
+            </NuxtLink>
+            </div>
+
           </div>
         </div>
       </section>
