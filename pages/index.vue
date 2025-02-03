@@ -217,7 +217,7 @@ const copyToClipboard = () => {
             interactive graphs</p>
 
           <div class="flex flex-row gap-4 justify-center">
-            <NuxtLink to="/download"
+            <NuxtLink to="https://www.spigotmc.org/resources/pluginvisualizer.122356/"
               class="bg-purple-600/20 hover:bg-purple-600/30 border border-purple-600/50 px-8 py-4 rounded-lg glow-hover transition-all duration-300 inline-flex items-center gap-2">
               <Icon name="simple-icons:spigotmc" class="text-xl" />
               Download on Spigot
@@ -308,7 +308,7 @@ const copyToClipboard = () => {
                 the plugins directory.
               </p>
               <div class="mt-4">
-                <NuxtLink to="/download" class="text-purple-400 hover:text-purple-300 flex items-center gap-2">
+                <NuxtLink to="https://www.spigotmc.org/resources/pluginvisualizer.122356/" class="text-purple-400 hover:text-purple-300 flex items-center gap-2">
                   <Icon name="simple-icons:spigotmc" />
                   Download from SpigotMC
                 </NuxtLink>
