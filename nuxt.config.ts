@@ -21,7 +21,6 @@ export default defineNuxtConfig({
   },
   nuxtRateLimit: {
     enabled: true,
-
     routes: {
       '/api/v1/plugins/upload': {
         maxRequests: 1,

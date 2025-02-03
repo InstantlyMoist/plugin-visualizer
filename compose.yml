@@ -1,0 +1,30 @@
+services:
+  pluginvisualizer:
+    container_name: pluginvisualizer
+    build: 
+      context: .
+      dockerfile: /docker/Dockerfile
+      target: production
+    ports:
+      - 127.0.0.1:2999:3000
+    env_file:
+      - ./.env
+    volumes:
+      - ./data/db:/app/data/db
+    depends_on:
+      - mongodb-pluginvisualizer
+    networks:
+      - default
+  mongodb-pluginvisualizer:
+    image: mongo
+    ports:
+      - '27012:27017'
+    volumes:
+      - ./data:/data/db
+    env_file:
+      - .env
+    networks:
+      - default
+
+networks:
+  default:
