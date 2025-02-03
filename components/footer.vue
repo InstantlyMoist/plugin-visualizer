@@ -10,7 +10,7 @@
 
         <div class="flex items-center gap-4">
           <NuxtLink to="https://github.com/InstantlyMoist/plugin-visualizer" target="_blank"
-            class="text-zinc-400 hover:text-purple-500 transition-colors">
+            class="text-zinc-400 hover:text-purple-500 transition-colors" aria-label="PluginVisualizer GitHub repository">
             <Icon name="uil:github" class="text-2xl" />
           </NuxtLink>
         </div>
