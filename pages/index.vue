@@ -284,7 +284,7 @@ const copyToClipboard = () => {
               <i class="text-zinc-300 text-sm text-right">
               Click and drag to move the graph
             </i>
-            <NuxtLink target="_blank" href="/visualize/03324e7d-1ee6-4cd4-8060-a0133cb03a3f">
+            <NuxtLink target="_blank" aria-label="Preview Plugin Graph" href="/visualize/03324e7d-1ee6-4cd4-8060-a0133cb03a3f">
               <Icon name="cil:fullscreen" class="hover:text-purple-500 transition-colors"/>
             </NuxtLink>
             </div>
